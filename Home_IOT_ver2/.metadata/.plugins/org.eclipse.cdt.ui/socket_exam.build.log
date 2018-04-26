@@ -1,0 +1,19 @@
+17:09:30 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+  time_t ticks;
+         ^
+Finished building: ../src/socket_exam.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket_exam.o   
+Finished building target: socket_exam
+ 
+
+17:09:31 Build Finished (took 681ms)
+

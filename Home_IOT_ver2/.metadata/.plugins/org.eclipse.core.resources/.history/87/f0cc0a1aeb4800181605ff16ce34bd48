@@ -1,0 +1,59 @@
+/*
+ ============================================================================
+ Name        : Home_IoT_Controller.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define TRUE 1
+#define ON		1
+#define OFF	0
+
+void display_menu(){
+	puts("0. LIST MENU");
+	puts("1. TV - ON/OFF");
+	puts("2. AIRCON - ON/OFF");
+	puts("3. LAMP - ON/OFF");
+	puts("4. DORR - ON/OFF");
+	puts("10.EXIT");
+}
+
+int main(void) {
+	int choice=0;
+	char TV = OFF;
+	char AIRCON = OFF;
+	char LAMP = OFF;
+	char DOOR = OFF;
+
+	puts("==============================");
+	puts("- HOME IOT CONTROLLER -");
+	puts("==============================");
+
+	while(TRUE){
+		display_menu();
+		scanf("%d",&choice);
+		if(choice == 0){
+			continue;
+		}else if(choice == 1){
+
+		}else if(choice == 2){
+
+		}else if(choice == 3){
+
+		}else if(choice == 4){
+
+		}else if(choice == 10){
+			break;
+		}
+
+	}
+
+	return EXIT_SUCCESS;
+}

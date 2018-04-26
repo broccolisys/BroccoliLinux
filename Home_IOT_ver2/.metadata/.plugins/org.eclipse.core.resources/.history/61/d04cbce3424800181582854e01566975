@@ -1,0 +1,47 @@
+/*
+ ============================================================================
+ Name        : str2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define BUF_SIZE 1024
+
+int main(void) {
+	char title[BUF_SIZE];
+
+	char hello1[BUF_SIZE];	//stack
+	char* hello2= (char*)malloc(sizeof(char*)*BUF_SIZE);	//heap
+
+	memset(hello1, 0 , BUF_SIZE);
+	memset(hello2, 0 , BUF_SIZE);
+
+	strcpy(hello1, "hello1");
+	strcpy(hello2, "hello2");
+
+	printf("%s\n", hello1);
+	printf("%s\n", hello2);
+
+	strcat(hello1," world");
+	strcat(hello2," world");
+
+	printf("%s\n", hello1);
+	printf("%s\n", hello2);
+
+	sprintf(title,"<title>%s</title>",hello1);
+
+	printf("%s\n",title);
+	printf("<title>%s</title>\n",hello2);
+
+	free(hello2);
+	hello2=NULL;
+
+	return EXIT_SUCCESS;
+}

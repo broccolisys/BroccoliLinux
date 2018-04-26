@@ -1,0 +1,32 @@
+11:39:25 **** Incremental Build of configuration Debug for project upperlower ****
+make all 
+Building file: ../src/upperlower.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upperlower.d" -MT"src/upperlower.o" -o "src/upperlower.o" "../src/upperlower.c"
+../src/upperlower.c: In function ‘main’:
+../src/upperlower.c:29:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+  strcpy(text,"Hello World!!");
+  ^
+../src/upperlower.c:29:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/upperlower.c:29:2: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+../src/upperlower.c: In function ‘toupperstr’:
+../src/upperlower.c:46:18: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+  int length=(int)strlen(text);
+                  ^
+../src/upperlower.c:46:18: warning: incompatible implicit declaration of built-in function ‘strlen’
+../src/upperlower.c:46:18: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+../src/upperlower.c: In function ‘tolowerstr’:
+../src/upperlower.c:55:18: warning: incompatible implicit declaration of built-in function ‘strlen’
+  int length=(int)strlen(text);
+                  ^
+../src/upperlower.c:55:18: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+Finished building: ../src/upperlower.c
+ 
+Building target: upperlower
+Invoking: GCC C Linker
+gcc  -o "upperlower"  ./src/upperlower.o   
+Finished building target: upperlower
+ 
+
+11:39:27 Build Finished (took 1s.626ms)
+

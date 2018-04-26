@@ -1,0 +1,15 @@
+09:39:33 **** Incremental Build of configuration Debug for project struct ****
+make all 
+Building file: ../src/struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/struct.d" -MT"src/struct.d" -o "src/struct.o" "../src/struct.c"
+Finished building: ../src/struct.c
+ 
+Building target: struct
+Invoking: GCC C Linker
+gcc  -o "struct"  ./src/struct.o   
+Finished building target: struct
+ 
+
+09:39:34 Build Finished (took 1s.43ms)
+

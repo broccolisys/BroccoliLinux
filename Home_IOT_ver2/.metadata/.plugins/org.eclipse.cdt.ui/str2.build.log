@@ -1,0 +1,6 @@
+12:12:43 **** Incremental Build of configuration Debug for project str2 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+
+12:12:44 Build Finished (took 751ms)
+

@@ -1,0 +1,75 @@
+/*
+ ============================================================================
+ Name        : Home_IoT_Controller.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define BOOL	char
+#define TRUE	1
+#define ON		1
+#define OFF	0
+
+void display_menu(){
+	puts("0. LIST MENU");
+	puts("1. TV - ON/OFF");
+	puts("2. AIRCON - ON/OFF");
+	puts("3. LAMP - ON/OFF");
+	puts("4. DORR - ON/OFF");
+	puts("10.EXIT");
+}
+
+void ONOFF(BOOL *state){
+	if(*state==OFF){
+		*state=ON;
+	}else{
+		*state=OFF;
+	}
+}
+
+int main(void) {
+	char choice=0;
+	BOOL TV = OFF;
+	BOOL AIRCON = OFF;
+	BOOL LAMP = OFF;
+	BOOL DOOR = OFF;
+
+	puts("==============================");
+	puts("- HOME IOT CONTROLLER -");
+	puts("==============================");
+
+	while(TRUE){
+		display_menu();
+		scanf("%d",&choice);
+		if(choice == 0){
+			continue;
+		}else if(choice == 1){
+			ONOFF(&TV);
+			printf("TV is %d\n",TV);
+		}else if(choice == 2){
+			ONOFF(&AIRCON);
+			printf("AIRCON is %d\n",AIRCON);
+		}else if(choice == 3){
+			ONOFF(&LAMP);
+			printf("LAMP is %d\n",LAMP);
+		}else if(choice == 4){
+			ONOFF(&DOOR);
+			printf("DOOR is %d\n",DOOR);
+		}else if(choice == 10){
+			puts("System Exit. GoodBye!");
+			break;
+		}else{
+			puts("Wrong input!!");
+		}
+
+	}
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,79 @@
+/*
+ ============================================================================
+ Name        : Home_IoT_Controller.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+//#include <string.h>
+
+#define BOOL	int
+#define ON		1
+#define OFF	0
+
+#define HORIZON_BAR		"=============================="
+#define START_MSG			"- HOME IoT CONTROLLER -"
+#define QUIT_MSG			"System Exit. GoodBye!"
+#define WRONG_INPUT_MSG	"Wrong input!!"
+
+void DisPlayMenu(){
+	puts("0. LIST MENU");
+	puts("1. TV - ON/OFF");
+	puts("2. AIRCON - ON/OFF");
+	puts("3. LAMP - ON/OFF");
+	puts("4. DOOR - ON/OFF");
+	puts("10.EXIT");
+}
+
+void OnOff(BOOL* pState){
+	if(*pState==OFF){
+		*pState=ON;
+	}else{
+		*pState=OFF;
+	}
+}
+
+int main(void) {
+	char	cChoice[10]	= {0,};
+	char*	pState_MSG[3]	= {"OFF","ON"};
+	BOOL	iTv				= OFF;
+	BOOL	iAircorn		= OFF;
+	BOOL	iLamp			= OFF;
+	BOOL	iDoor			= OFF;
+
+	puts(HORIZON_BAR);
+	puts(START_MSG);
+	puts(HORIZON_BAR);
+
+	DisPlayMenu();
+	while(ON){
+		scanf("%s",&cChoice);
+		if(!strcmp(cChoice,"0")){
+			DisPlayMenu();
+			continue;
+		}else if(!strcmp(cChoice,"1")){
+			OnOff(&iTv);
+			printf("TV is [%s]\n",pState_MSG[iTv]);
+		}else if(!strcmp(cChoice,"2")){
+			OnOff(&iAircorn);
+			printf("AIRCON is [%s]\n",pState_MSG[iAircorn]);
+		}else if(!strcmp(cChoice,"3")){
+			OnOff(&iLamp);
+			printf("LAMP is [%s]\n",pState_MSG[iLamp]);
+		}else if(!strcmp(cChoice,"4")){
+			OnOff(&iDoor);
+			printf("DOOR is [%s]\n",pState_MSG[iDoor]);
+		}else if(!strcmp(cChoice,"10")){
+			puts(QUIT_MSG);
+			exit(ON);
+		}else{
+			puts(WRONG_INPUT_MSG);
+		}
+	}
+	return EXIT_SUCCESS;
+}

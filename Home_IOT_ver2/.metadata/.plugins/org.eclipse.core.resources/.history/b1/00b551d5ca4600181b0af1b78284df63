@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : malloc.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MEMBER 2
+
+int main(void) {
+	char *name=(char*)malloc(sizeof(char)*10);
+	int age;
+
+	for(int i=0;i<MEMBER;i++){
+		printf("name : ");
+		scanf("%s",&name);
+
+		printf("age: ");
+		scanf("%d",&age);
+
+		printf("%d\n",age);
+		printf("%s\n",*name);
+	}
+
+	return EXIT_SUCCESS;
+}

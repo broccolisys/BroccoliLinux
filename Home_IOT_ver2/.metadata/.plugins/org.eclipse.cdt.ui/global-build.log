@@ -1,0 +1,1402 @@
+13:44:54 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+Building file: ../src/str3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str3.d" -MT"src/str3.d" -o "src/str3.o" "../src/str3.c"
+Finished building: ../src/str3.c
+ 
+Building target: str3
+Invoking: GCC C Linker
+gcc  -o "str3"  ./src/str3.o   
+Finished building target: str3
+ 
+13:45:00 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+13:45:20 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+13:45:27 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+Building file: ../src/str3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str3.d" -MT"src/str3.d" -o "src/str3.o" "../src/str3.c"
+Finished building: ../src/str3.c
+ 
+Building target: str3
+Invoking: GCC C Linker
+gcc  -o "str3"  ./src/str3.o   
+Finished building target: str3
+ 
+13:49:16 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+Building file: ../src/str3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str3.d" -MT"src/str3.d" -o "src/str3.o" "../src/str3.c"
+Finished building: ../src/str3.c
+ 
+Building target: str3
+Invoking: GCC C Linker
+gcc  -o "str3"  ./src/str3.o   
+Finished building target: str3
+ 
+13:49:23 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+14:00:27 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+14:01:11 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+14:01:16 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+Building file: ../src/str3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str3.d" -MT"src/str3.d" -o "src/str3.o" "../src/str3.c"
+Finished building: ../src/str3.c
+ 
+Building target: str3
+Invoking: GCC C Linker
+gcc  -o "str3"  ./src/str3.o   
+Finished building target: str3
+ 
+16:05:06 **** Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket.d" -MT"src/socket.o" -o "src/socket.o" "../src/socket.c"
+Finished building: ../src/socket.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket.o   
+Finished building target: socket_exam
+ 
+16:09:56 **** Clean-only build of configuration Debug for project socket_exam ****
+make clean 
+rm -rf  ./src/socket.o  ./src/socket.d  socket_exam
+ 
+16:09:57 **** Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket.d" -MT"src/socket.o" -o "src/socket.o" "../src/socket.c"
+../src/socket.c: In function ‘main’:
+../src/socket.c:32:2: error: ‘serv_Addr’ undeclared (first use in this function)
+  serv_Addr.sin_family = AF_INET;
+  ^
+../src/socket.c:32:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/socket.c:33:9: error: ‘EXIT_SUCCESS’ undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^
+../src/socket.c:26:9: warning: unused variable ‘ticks’ [-Wunused-variable]
+  time_t ticks;
+         ^
+../src/socket.c:22:20: warning: unused variable ‘donnfd’ [-Wunused-variable]
+  int listenfd = 0, donnfd =0;
+                    ^
+../src/socket.c:22:6: warning: variable ‘listenfd’ set but not used [-Wunused-but-set-variable]
+  int listenfd = 0, donnfd =0;
+      ^
+src/subdir.mk:21: 'src/socket.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/socket.o] 오류 1
+16:11:35 **** Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:11:42 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:11:44 **** Incremental Build of configuration Debug for project str3 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:11:53 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.d" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:37:18: error: ‘sturct’ undeclared (first use in this function)
+  bind(listenfd, (sturct sockaddr*)&serv_addr, sizeof(serv_addr));
+                  ^
+../src/socket_exam.c:37:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/socket_exam.c:37:25: error: expected ‘)’ before ‘sockaddr’
+  bind(listenfd, (sturct sockaddr*)&serv_addr, sizeof(serv_addr));
+                         ^
+../src/socket_exam.c:42:58: error: expected ‘;’ before ‘)’ token
+   connfd = accept(listenfd, (struct sockaddr*)NULL, NULL));
+                                                          ^
+../src/socket_exam.c:42:58: error: expected statement before ‘)’ token
+make: *** [src/socket_exam.o] 오류 1
+src/subdir.mk:18: 'src/socket_exam.o' 타겟에 대한 명령이 실패했습니다
+16:12:48 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.d" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:37:18: error: ‘sturct’ undeclared (first use in this function)
+  bind(listenfd, (sturct sockaddr*)&serv_addr, sizeof(serv_addr));
+                  ^
+../src/socket_exam.c:37:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/socket_exam.c:37:25: error: expected ‘)’ before ‘sockaddr’
+  bind(listenfd, (sturct sockaddr*)&serv_addr, sizeof(serv_addr));
+                         ^
+../src/socket_exam.c:42:58: error: expected ‘;’ before ‘)’ token
+   connfd = accept(listenfd, (struct sockaddr*)NULL, NULL));
+                                                          ^
+../src/socket_exam.c:42:58: error: expected statement before ‘)’ token
+src/subdir.mk:18: 'src/socket_exam.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/socket_exam.o] 오류 1
+16:12:57 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.d" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:37:18: error: ‘sturct’ undeclared (first use in this function)
+  bind(listenfd, (sturct sockaddr*)&serv_addr, sizeof(serv_addr));
+                  ^
+../src/socket_exam.c:37:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/socket_exam.c:37:25: error: expected ‘)’ before ‘sockaddr’
+  bind(listenfd, (sturct sockaddr*)&serv_addr, sizeof(serv_addr));
+                         ^
+../src/socket_exam.c:42:58: error: expected ‘;’ before ‘)’ token
+   connfd = accept(listenfd, (struct sockaddr*)NULL, NULL));
+                                                          ^
+../src/socket_exam.c:42:58: error: expected statement before ‘)’ token
+src/subdir.mk:18: 'src/socket_exam.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/socket_exam.o] 오류 1
+16:13:34 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.d" -o "src/socket_exam.o" "../src/socket_exam.c"
+Finished building: ../src/socket_exam.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket_exam.o   
+Finished building target: socket_exam
+ 
+16:13:41 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:15:07 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:21:10 **** Build of configuration Debug for project socket_client_exam ****
+make all 
+Building file: ../src/socket_client_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_client_exam.d" -MT"src/socket_client_exam.o" -o "src/socket_client_exam.o" "../src/socket_client_exam.c"
+Finished building: ../src/socket_client_exam.c
+ 
+Building target: socket_client_exam
+Invoking: GCC C Linker
+gcc  -o "socket_client_exam"  ./src/socket_client_exam.o   
+Finished building target: socket_client_exam
+ 
+16:22:01 **** Incremental Build of configuration Debug for project socket_client_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:22:11 **** Incremental Build of configuration Debug for project socket_client_exam ****
+make all 
+Building file: ../src/socket_client_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_client_exam.d" -MT"src/socket_client_exam.o" -o "src/socket_client_exam.o" "../src/socket_client_exam.c"
+Finished building: ../src/socket_client_exam.c
+ 
+Building target: socket_client_exam
+Invoking: GCC C Linker
+gcc  -o "socket_client_exam"  ./src/socket_client_exam.o   
+Finished building target: socket_client_exam
+ 
+16:22:23 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:22:37 **** Incremental Build of configuration Debug for project socket_client_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:48:43 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+16:48:47 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+17:04:43 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+Finished building: ../src/socket_exam.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket_exam.o   
+Finished building target: socket_exam
+ 
+17:04:50 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:46:3: error: too few arguments to function ‘snprintf’
+   snprintf("hello ");
+   ^
+src/subdir.mk:18: 'src/socket_exam.o' 타겟에 대한 명령이 실패했습니다
+../src/socket_exam.c:47:3: error: too few arguments to function ‘snprintf’
+   snprintf("man~\n");
+   ^
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+  time_t ticks;
+         ^
+make: *** [src/socket_exam.o] 오류 1
+17:05:13 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:46:3: error: too few arguments to function ‘snprintf’
+   snprintf("hello ");
+   ^
+../src/socket_exam.c:47:3: error: too few arguments to function ‘snprintf’
+   snprintf("man~\n");
+   ^
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+  time_t ticks;
+         ^
+src/subdir.mk:18: 'src/socket_exam.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/socket_exam.o] 오류 1
+17:05:42 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:46:3: error: too few arguments to function ‘snprintf’
+   snprintf("hello ");
+   ^
+../src/socket_exam.c:47:3: error: too few arguments to function ‘snprintf’
+   snprintf("man~\n");
+   ^
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+  time_t ticks;
+         ^
+src/subdir.mk:18: 'src/socket_exam.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/socket_exam.o] 오류 1
+17:06:44 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+../src/socket_exam.c: In function ‘main’:
+Building file: ../src/socket_exam.c
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+Finished building: ../src/socket_exam.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket_exam.o   
+  time_t ticks;
+         ^
+Finished building target: socket_exam
+ 
+17:07:18 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+17:08:07 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+  time_t ticks;
+         ^
+Finished building: ../src/socket_exam.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket_exam.o   
+Finished building target: socket_exam
+ 
+17:08:15 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+17:09:24 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+17:09:30 **** Incremental Build of configuration Debug for project socket_exam ****
+make all 
+Building file: ../src/socket_exam.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/socket_exam.d" -MT"src/socket_exam.o" -o "src/socket_exam.o" "../src/socket_exam.c"
+../src/socket_exam.c: In function ‘main’:
+../src/socket_exam.c:27:9: warning: variable ‘ticks’ set but not used [-Wunused-but-set-variable]
+  time_t ticks;
+         ^
+Finished building: ../src/socket_exam.c
+ 
+Building target: socket_exam
+Invoking: GCC C Linker
+gcc  -o "socket_exam"  ./src/socket_exam.o   
+Finished building target: socket_exam
+ 
+09:27:20 **** Build of configuration Debug for project Home_IOT_Controller ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Home_IOT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IOT_Controller"  ./main.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: 'Home_IOT_Controller' 타겟에 대한 명령이 실패했습니다
+collect2: error: ld returned 1 exit status
+make: *** [Home_IOT_Controller] 오류 1
+09:27:50 **** Incremental Build of configuration Debug for project Home_IOT_Controller ****
+make all 
+Building target: Home_IOT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IOT_Controller"  ./main.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: 'Home_IOT_Controller' 타겟에 대한 명령이 실패했습니다
+collect2: error: ld returned 1 exit status
+make: *** [Home_IOT_Controller] 오류 1
+09:31:16 **** Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:31:27 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:39:50 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:40:58 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:33:7: warning: unused variable ‘DOOR’ [-Wunused-variable]
+  char DOOR = OFF;
+       ^
+../src/Home_IoT_Controller.c:32:7: warning: unused variable ‘LAMP’ [-Wunused-variable]
+  char LAMP = OFF;
+       ^
+../src/Home_IoT_Controller.c:31:7: warning: unused variable ‘AIRCON’ [-Wunused-variable]
+  char AIRCON = OFF;
+       ^
+../src/Home_IoT_Controller.c:30:7: warning: unused variable ‘TV’ [-Wunused-variable]
+  char TV = OFF;
+       ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:45:19 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+09:45:22 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:29:10: warning: comparison between pointer and integer
+  if(state==ON){
+          ^
+../src/Home_IoT_Controller.c:32:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:47:12 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+09:47:32 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+09:47:37 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:31:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:49:34 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+09:49:38 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:31:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+09:50:19 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+09:50:23 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:31:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:09:58 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:10:03 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:30:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:10:48 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:10:52 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:29:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+  printf("%d %d\n",state, *state);
+         ^
+../src/Home_IoT_Controller.c:31:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:11:14 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:11:25 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:11:45 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:11:48 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:30:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+../src/Home_IoT_Controller.c:34:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+  printf("%d %d",state, *state);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:12:10 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:12:15 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘ONOFF’:
+../src/Home_IoT_Controller.c:30:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   state=ON;
+        ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:12:36 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:12:41 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:23:39 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:23:44 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
+   scanf("%d",&choice);
+         ^
+../src/Home_IoT_Controller.c:54:10: warning: passing argument 1 of ‘ONOFF’ from incompatible pointer type [-Wincompatible-pointer-types]
+    ONOFF(&TV);
+          ^
+../src/Home_IoT_Controller.c:29:6: note: expected ‘int *’ but argument is of type ‘char *’
+ void ONOFF(int *state){
+      ^
+../src/Home_IoT_Controller.c:57:10: warning: passing argument 1 of ‘ONOFF’ from incompatible pointer type [-Wincompatible-pointer-types]
+    ONOFF(&AIRCON);
+          ^
+../src/Home_IoT_Controller.c:29:6: note: expected ‘int *’ but argument is of type ‘char *’
+ void ONOFF(int *state){
+      ^
+../src/Home_IoT_Controller.c:60:10: warning: passing argument 1 of ‘ONOFF’ from incompatible pointer type [-Wincompatible-pointer-types]
+    ONOFF(&LAMP);
+          ^
+../src/Home_IoT_Controller.c:29:6: note: expected ‘int *’ but argument is of type ‘char *’
+ void ONOFF(int *state){
+      ^
+../src/Home_IoT_Controller.c:63:10: warning: passing argument 1 of ‘ONOFF’ from incompatible pointer type [-Wincompatible-pointer-types]
+    ONOFF(&DOOR);
+          ^
+../src/Home_IoT_Controller.c:29:6: note: expected ‘int *’ but argument is of type ‘char *’
+ void ONOFF(int *state){
+      ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:24:30 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:24:33 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
+   scanf("%d",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:25:07 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:25:10 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
+   scanf("%d",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:26:48 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:26:51 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[3]’ [-Wformat=]
+   scanf("%s",&choice);
+         ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:53:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:56:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:59:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:62:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:65:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "10"){
+                   ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:27:58 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:28:02 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:31:08 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:31:11 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:51:13: warning: comparison between pointer and integer
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:54:19: warning: comparison between pointer and integer
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:54:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:57:19: warning: comparison between pointer and integer
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:57:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:60:19: warning: comparison between pointer and integer
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:60:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:63:19: warning: comparison between pointer and integer
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:63:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:66:19: warning: comparison between pointer and integer
+   }else if(choice == "10"){
+                   ^
+../src/Home_IoT_Controller.c:66:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:32:06 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:32:09 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:51:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   printf("%s\n",choice);
+          ^
+../src/Home_IoT_Controller.c:52:13: warning: comparison between pointer and integer
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:52:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:55:19: warning: comparison between pointer and integer
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:55:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:58:19: warning: comparison between pointer and integer
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:58:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:61:19: warning: comparison between pointer and integer
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:61:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:64:19: warning: comparison between pointer and integer
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:64:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:67:19: warning: comparison between pointer and integer
+   }else if(choice == "10"){
+                   ^
+../src/Home_IoT_Controller.c:67:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:32:40 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:32:46 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:38:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char choice="0";
+              ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison between pointer and integer
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:54:19: warning: comparison between pointer and integer
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:54:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:57:19: warning: comparison between pointer and integer
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:57:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:60:19: warning: comparison between pointer and integer
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:60:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:63:19: warning: comparison between pointer and integer
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:63:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Home_IoT_Controller.c:66:19: warning: comparison between pointer and integer
+   }else if(choice == "10"){
+                   ^
+../src/Home_IoT_Controller.c:66:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:33:16 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:33:20 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   scanf("%c",&choice);
+         ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:54:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:57:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:60:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:63:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:66:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "10"){
+                   ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:33:53 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:34:14 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:34:20 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:38:17: error: expected expression before ‘[’ token
+  char choice[5]=[0,];
+                 ^
+../src/Home_IoT_Controller.c:38:19: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  char choice[5]=[0,];
+                   ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:54:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:57:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:60:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:63:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:66:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "10"){
+                   ^
+src/subdir.mk:18: 'src/Home_IoT_Controller.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/Home_IoT_Controller.o] 오류 1
+10:36:35 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:38:17: error: expected expression before ‘[’ token
+  char choice[5]=[0,];
+                 ^
+../src/Home_IoT_Controller.c:38:19: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  char choice[5]=[0,];
+                   ^
+../src/Home_IoT_Controller.c:51:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   if(choice == "0"){
+             ^
+../src/Home_IoT_Controller.c:54:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "1"){
+                   ^
+../src/Home_IoT_Controller.c:57:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "2"){
+                   ^
+../src/Home_IoT_Controller.c:60:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "3"){
+                   ^
+../src/Home_IoT_Controller.c:63:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "4"){
+                   ^
+../src/Home_IoT_Controller.c:66:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   }else if(choice == "10"){
+                   ^
+src/subdir.mk:18: 'src/Home_IoT_Controller.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/Home_IoT_Controller.o] 오류 1
+10:38:05 **** Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:38:18: error: expected expression before ‘[’ token
+  char choice[10]=[0,];
+src/subdir.mk:18: 'src/Home_IoT_Controller.o' 타겟에 대한 명령이 실패했습니다
+                  ^
+../src/Home_IoT_Controller.c:38:20: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  char choice[10]=[0,];
+                    ^
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&choice);
+         ^
+make: *** [src/Home_IoT_Controller.o] 오류 1
+10:38:12 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:38:50 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:39:02 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:39:52 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:39:56 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char **’ [-Wformat=]
+   scanf("%s",choice);
+         ^
+../src/Home_IoT_Controller.c:51:14: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
+   if(!strcmp(choice,"0")){
+              ^
+In file included from ../src/Home_IoT_Controller.c:13:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char **’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Home_IoT_Controller.c:54:20: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
+   }else if(!strcmp(choice,"1")){
+                    ^
+In file included from ../src/Home_IoT_Controller.c:13:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char **’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Home_IoT_Controller.c:57:20: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
+   }else if(!strcmp(choice,"2")){
+                    ^
+In file included from ../src/Home_IoT_Controller.c:13:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char **’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Home_IoT_Controller.c:60:20: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
+   }else if(!strcmp(choice,"3")){
+                    ^
+In file included from ../src/Home_IoT_Controller.c:13:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char **’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Home_IoT_Controller.c:63:20: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
+   }else if(!strcmp(choice,"4")){
+                    ^
+In file included from ../src/Home_IoT_Controller.c:13:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char **’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Home_IoT_Controller.c:66:20: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
+   }else if(!strcmp(choice,"10")){
+                    ^
+In file included from ../src/Home_IoT_Controller.c:13:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char **’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:42:27 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:42:31 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:43:00 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:43:03 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:50:9: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%c",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+10:46:03 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+10:46:07 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:52:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&choice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+11:09:07 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:09:15 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:55:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&cChoice);
+         ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+11:12:04 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:12:09 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:55:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&cChoice);
+         ^
+../src/Home_IoT_Controller.c:56:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if(!strcmp(cChoice,"0")){
+       ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+11:12:42 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:12:46 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:55:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&cChoice);
+         ^
+../src/Home_IoT_Controller.c:56:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if(!strcmp(cChoice,"0")){
+       ^
+../src/Home_IoT_Controller.c:73:4: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+    exit(ON);
+    ^
+../src/Home_IoT_Controller.c:73:4: warning: incompatible implicit declaration of built-in function ‘exit’
+../src/Home_IoT_Controller.c:73:4: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+../src/Home_IoT_Controller.c:78:9: error: ‘EXIT_SUCCESS’ undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^
+../src/Home_IoT_Controller.c:78:9: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: 'src/Home_IoT_Controller.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/Home_IoT_Controller.o] 오류 1
+11:13:01 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:55:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&cChoice);
+         ^
+../src/Home_IoT_Controller.c:56:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if(!strcmp(cChoice,"0")){
+       ^
+../src/Home_IoT_Controller.c:73:4: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+    exit(ON);
+    ^
+../src/Home_IoT_Controller.c:73:4: warning: incompatible implicit declaration of built-in function ‘exit’
+../src/Home_IoT_Controller.c:73:4: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+../src/Home_IoT_Controller.c:78:9: error: ‘EXIT_SUCCESS’ undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^
+../src/Home_IoT_Controller.c:78:9: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: 'src/Home_IoT_Controller.o' 타겟에 대한 명령이 실패했습니다
+make: *** [src/Home_IoT_Controller.o] 오류 1
+11:13:08 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+Building file: ../src/Home_IoT_Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Home_IoT_Controller.d" -MT"src/Home_IoT_Controller.o" -o "src/Home_IoT_Controller.o" "../src/Home_IoT_Controller.c"
+../src/Home_IoT_Controller.c: In function ‘main’:
+../src/Home_IoT_Controller.c:55:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   scanf("%s",&cChoice);
+         ^
+../src/Home_IoT_Controller.c:56:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if(!strcmp(cChoice,"0")){
+       ^
+Finished building: ../src/Home_IoT_Controller.c
+ 
+Building target: Home_IoT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IoT_Controller"  ./src/Home_IoT_Controller.o   
+Finished building target: Home_IoT_Controller
+ 
+11:13:23 **** Incremental Build of configuration Debug for project Home_IoT_Controller ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:32:30 **** Build of configuration Debug for project str1 ****
+make all 
+Building file: ../src/str1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str1.d" -MT"src/str1.o" -o "src/str1.o" "../src/str1.c"
+../src/str1.c: In function ‘main’:
+../src/str1.c:35:8: warning: unused variable ‘hello4’ [-Wunused-variable]
+  char* hello4 ="hello";  // text(const) hello가 저장된 메모리 주소를 할당함
+        ^
+Finished building: ../src/str1.c
+ 
+Building target: str1
+Invoking: GCC C Linker
+gcc  -o "str1"  ./src/str1.o   
+Finished building target: str1
+ 
+11:32:38 **** Incremental Build of configuration Debug for project str1 ****
+make all 
+Building file: ../src/str1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str1.d" -MT"src/str1.o" -o "src/str1.o" "../src/str1.c"
+../src/str1.c: In function ‘main’:
+../src/str1.c:39:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char a="a";
+         ^
+../src/str1.c:40:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char b="B";
+         ^
+../src/str1.c:36:8: warning: unused variable ‘hello4’ [-Wunused-variable]
+  char* hello4 ="hello";  // text(const) hello가 저장된 메모리 주소를 할당함
+        ^
+Finished building: ../src/str1.c
+ 
+Building target: str1
+Invoking: GCC C Linker
+gcc  -o "str1"  ./src/str1.o   
+Finished building target: str1
+ 
+11:33:26 **** Incremental Build of configuration Debug for project str1 ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:33:35 **** Incremental Build of configuration Debug for project str1 ****
+make all 
+Building file: ../src/str1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str1.d" -MT"src/str1.o" -o "src/str1.o" "../src/str1.c"
+../src/str1.c: In function ‘main’:
+../src/str1.c:39:27: warning: passing argument 1 of ‘toupper’ makes integer from pointer without a cast [-Wint-conversion]
+  printf("%c %c\n",toupper("a"), tolower("B"));
+                           ^
+In file included from ../src/str1.c:14:0:
+/usr/include/ctype.h:127:12: note: expected ‘int’ but argument is of type ‘char *’
+ extern int toupper (int __c) __THROW;
+            ^
+../src/str1.c:39:41: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+  printf("%c %c\n",toupper("a"), tolower("B"));
+                                         ^
+In file included from ../src/str1.c:14:0:
+/usr/include/ctype.h:124:12: note: expected ‘int’ but argument is of type ‘char *’
+ extern int tolower (int __c) __THROW;
+            ^
+../src/str1.c:36:8: warning: unused variable ‘hello4’ [-Wunused-variable]
+  char* hello4 ="hello";  // text(const) hello가 저장된 메모리 주소를 할당함
+        ^
+Finished building: ../src/str1.c
+ 
+Building target: str1
+Invoking: GCC C Linker
+gcc  -o "str1"  ./src/str1.o   
+Finished building target: str1
+ 
+11:35:10 **** Build of configuration Debug for project upperlower ****
+make all 
+Building file: ../src/upperlower.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upperlower.d" -MT"src/upperlower.o" -o "src/upperlower.o" "../src/upperlower.c"
+Finished building: ../src/upperlower.c
+ 
+Building target: upperlower
+Invoking: GCC C Linker
+gcc  -o "upperlower"  ./src/upperlower.o   
+Finished building target: upperlower
+ 
+11:35:19 **** Incremental Build of configuration Debug for project upperlower ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:35:26 **** Incremental Build of configuration Debug for project upperlower ****
+make all 
+Building file: ../src/upperlower.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upperlower.d" -MT"src/upperlower.o" -o "src/upperlower.o" "../src/upperlower.c"
+../src/upperlower.c: In function ‘main’:
+../src/upperlower.c:17:7: warning: unused variable ‘b’ [-Wunused-variable]
+  char b= 'B';
+       ^
+../src/upperlower.c:16:7: warning: unused variable ‘a’ [-Wunused-variable]
+  char a= 'a';
+       ^
+Finished building: ../src/upperlower.c
+ 
+Building target: upperlower
+Invoking: GCC C Linker
+gcc  -o "upperlower"  ./src/upperlower.o   
+Finished building target: upperlower
+ 
+11:39:20 **** Incremental Build of configuration Debug for project upperlower ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+11:39:25 **** Incremental Build of configuration Debug for project upperlower ****
+make all 
+Building file: ../src/upperlower.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upperlower.d" -MT"src/upperlower.o" -o "src/upperlower.o" "../src/upperlower.c"
+../src/upperlower.c: In function ‘main’:
+../src/upperlower.c:29:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+  strcpy(text,"Hello World!!");
+  ^
+../src/upperlower.c:29:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/upperlower.c:29:2: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+../src/upperlower.c: In function ‘toupperstr’:
+../src/upperlower.c:46:18: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+  int length=(int)strlen(text);
+                  ^
+../src/upperlower.c:46:18: warning: incompatible implicit declaration of built-in function ‘strlen’
+../src/upperlower.c:46:18: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+../src/upperlower.c: In function ‘tolowerstr’:
+../src/upperlower.c:55:18: warning: incompatible implicit declaration of built-in function ‘strlen’
+  int length=(int)strlen(text);
+                  ^
+../src/upperlower.c:55:18: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+Finished building: ../src/upperlower.c
+ 
+Building target: upperlower
+Invoking: GCC C Linker
+gcc  -o "upperlower"  ./src/upperlower.o   
+Finished building target: upperlower
+ 

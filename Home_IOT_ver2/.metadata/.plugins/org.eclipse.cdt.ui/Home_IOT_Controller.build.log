@@ -1,0 +1,13 @@
+09:27:50 **** Incremental Build of configuration Debug for project Home_IOT_Controller ****
+make all 
+Building target: Home_IOT_Controller
+Invoking: GCC C Linker
+gcc  -o "Home_IOT_Controller"  ./main.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: 'Home_IOT_Controller' 타겟에 대한 명령이 실패했습니다
+collect2: error: ld returned 1 exit status
+make: *** [Home_IOT_Controller] 오류 1
+
+09:27:51 Build Finished (took 1s.521ms)
+

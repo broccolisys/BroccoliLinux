@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Home_IoT_Controller.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("==============================");
+	puts("- HOME IOT CONTROLLER -");
+	puts("==============================");
+
+	puts("0. LIST MENU");
+	puts("1. TV - ON/OFF");
+	puts("2. AIRCON - ON/OFF");
+	puts("3. LAMP - ON/OFF");
+	puts("4. DORR - ON/OFF");
+	puts("10.EXIT");
+	return EXIT_SUCCESS;
+}

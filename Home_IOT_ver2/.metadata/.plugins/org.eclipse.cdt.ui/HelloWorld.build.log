@@ -1,0 +1,6 @@
+09:35:30 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+
+09:35:31 Build Finished (took 829ms)
+

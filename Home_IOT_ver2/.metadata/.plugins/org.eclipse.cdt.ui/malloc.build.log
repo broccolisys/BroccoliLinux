@@ -1,0 +1,6 @@
+09:36:46 **** Incremental Build of configuration Debug for project malloc ****
+make all 
+make: 'all'을(를) 위해 할 일이 없습니다.
+
+09:36:47 Build Finished (took 1s.334ms)
+

@@ -1,0 +1,52 @@
+/*
+ ============================================================================
+ Name        : str1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void reverse_text(char* msg){
+	int i,j;
+	char temp;
+	int length=0;
+	length=strlen(msg);
+	printf("%lu %lu",length,strlen(msg));
+	j=length;
+
+	for(i=0;i<length;i++){
+		temp=msg[i];
+		msg[i]=msg[j];
+		msg[j--]=temp;
+	}
+
+	for(i=0;i<length;i++){
+		printf("%c",msg[i]);
+	}
+}
+
+int main(void) {
+	char hello1[6]={104,101,108,108,111,0};	//stack 0이 없으면 char 배열로 인식
+	char hello2[6]={'h','e','l','l','o',0};	// 0이 없으면 strcpy 같은 함수를 못쓰게 됨!
+	char hello3[1024]="hello world!!!!";
+	char* hello4	="hello";		// text(const) hello가 저장된 메모리 주소를 할당함
+	char* hello5	=(char*)malloc(sizeof(char)*6);		// heap
+
+	memset(hello5,0,sizeof(char)*6);	// malloc으로 선언한 변수의 값들 초기화
+	strcpy(hello5, "hello");	// 오른쪽 값을 왼쪽에 복사
+
+	printf("어디서 문제?");
+	reverse_text(hello1);
+	reverse_text(hello2);
+	reverse_text(hello3);
+	reverse_text(hello4);
+	reverse_text(hello5);
+
+	return EXIT_SUCCESS;
+}

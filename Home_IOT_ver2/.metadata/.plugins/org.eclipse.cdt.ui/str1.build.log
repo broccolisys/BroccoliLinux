@@ -1,0 +1,33 @@
+11:33:35 **** Incremental Build of configuration Debug for project str1 ****
+make all 
+Building file: ../src/str1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/str1.d" -MT"src/str1.o" -o "src/str1.o" "../src/str1.c"
+../src/str1.c: In function ‘main’:
+../src/str1.c:39:27: warning: passing argument 1 of ‘toupper’ makes integer from pointer without a cast [-Wint-conversion]
+  printf("%c %c\n",toupper("a"), tolower("B"));
+                           ^
+In file included from ../src/str1.c:14:0:
+/usr/include/ctype.h:127:12: note: expected ‘int’ but argument is of type ‘char *’
+ extern int toupper (int __c) __THROW;
+            ^
+../src/str1.c:39:41: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+  printf("%c %c\n",toupper("a"), tolower("B"));
+                                         ^
+In file included from ../src/str1.c:14:0:
+/usr/include/ctype.h:124:12: note: expected ‘int’ but argument is of type ‘char *’
+ extern int tolower (int __c) __THROW;
+            ^
+../src/str1.c:36:8: warning: unused variable ‘hello4’ [-Wunused-variable]
+  char* hello4 ="hello";  // text(const) hello가 저장된 메모리 주소를 할당함
+        ^
+Finished building: ../src/str1.c
+ 
+Building target: str1
+Invoking: GCC C Linker
+gcc  -o "str1"  ./src/str1.o   
+Finished building target: str1
+ 
+
+11:33:37 Build Finished (took 2s.228ms)
+

@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : struct.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MEMBER 9
+#define ZERO 0
+typedef struct{
+	char *name;
+	char *phone;
+	int age;
+}info_t;
+
+int main(void) {
+	info_t info[MEMBER];
+	int i=0;
+
+	for(i=ZERO;i<3;i++){
+		printf("name : ");
+		scanf("%s",&info[i].name);
+
+		printf("age : ");
+		scanf("%s",&info[i].age);
+	}
+
+	printf("\n\n");
+	for(i=ZERO;i<3;i++){
+		printf("name : %s\n",info[i].name);
+		printf("age : %s\n",info[i].age);
+	}
+
+
+
+	return EXIT_SUCCESS;
+}
