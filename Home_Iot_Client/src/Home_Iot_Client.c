@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) { // argc 배열의 갯수, argv 배열의 값�
 
  if (argc != 3) { // argc 가 3개가 안된다라면,
   printf("\n Usage: %s <ip> <port>\n", argv[0]); // 무조건 이 메세지 출력
-  return 1; // 운영체제에게 오류가 생겼다는 것을 말하는것 (1이든 무슨값이든 상관없음)
+  return 1; // 운영체제에게 오류가 생겼다는 것을 말하는것 (1이든 무슨값이든 상관없음).
  }
 
  memset(recvBuff, 0, sizeof(recvBuff)); // 0으로 값을 초기(이유는 밑에 참고)
